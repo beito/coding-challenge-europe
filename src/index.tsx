@@ -1,4 +1,5 @@
 import '@primer/css/dist/primer.css';
+import '@primer/react-brand/lib/css/main.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

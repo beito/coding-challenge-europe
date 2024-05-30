@@ -1,6 +1,7 @@
 
 import { Header, Box, Heading, Text, Button } from '@primer/react';
-import {Avatar} from '@primer/react';
+import { Card } from '@primer/react-brand';
+import { Avatar } from '@primer/react';
 
 function App() {
   return (
@@ -16,13 +17,14 @@ function App() {
           <Avatar src="https://github.com/octocat.png" size={20} square alt="@octocat" />
         </Header.Item>
       </Header>
-      <Box p={4} display="flex" flexDirection="column" alignItems="center">
-        <Heading as="h1">Hello, Primer!</Heading>
-        <Text as="p" fontSize={3}>
-          This is a sample application using Primer Design System.
-        </Text>
-        <Button variant="primary">Click me!</Button>
-      </Box>
+      <Card href="https://github.com">
+        <Card.Heading>Code search & code view</Card.Heading>
+        <Card.Label>Limited</Card.Label>
+        <Card.Description>
+          Enables you to rapidly search, navigate, and understand code, right from
+          GitHub.com.
+        </Card.Description>
+      </Card>
     </Box>
   );
 }
