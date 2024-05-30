@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./*"]
     },
     "target": "es5",
     "lib": [
@@ -28,4 +28,5 @@
     "src"
   ],
   "exclude": ["node_modules"]
+
 }
